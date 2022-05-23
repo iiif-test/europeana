@@ -2,7 +2,7 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://iiif-test.github.io/europeana/collections/collection.json",
     "@type": "sc:Collection",
-    "label": "Top Level Collection for Example Organization",
+    "label": "Example Manifests",
     "description": "Example collection from Europeana Aggregator Training",
     "attribution": "Provided by Example Organization",
     "members": [
@@ -18,17 +18,17 @@
         },
         {
             "@id": "https://rose-efg.github.io/IIIF-Workshop-20220523/manifests/manifest_213-item-433-narliqrmxfapucuzljychw7x6ani6.json",
-            "@type": "sc:Collection",
+            "@type": "sc:Manifest",
             "label": "Example 3"
         },
         {
             "@id": "https://elems2020.github.io/DDB/manifests/manifest.json",
-            "@type": "sc:Collection",
+            "@type": "sc:Manifest",
             "label": "Example 4"
         },
         {
             "@id": "https://miguelsalesb.github.io/europeana/manifests/manifest.json",
-            "@type": "sc:Collection",
+            "@type": "sc:Manifest",
             "label": "Example 5"
         }
     ]
