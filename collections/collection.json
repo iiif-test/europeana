@@ -1,0 +1,40 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif-test.github.io/europeana/collection/collection.json",
+    "@type": "sc:Collection",
+    "label": "Top Level Collection for Example Organization",
+    "description": "Example collection from Europeana Aggregator Training",
+    "attribution": "Provided by Example Organization",
+    "members": [
+        {
+            "@id": "https://KFernie.github.io/europe/manifests/stonehenge_manifest.json",
+            "@type": "sc:Manifest",
+            "label": "Example 1"
+        },
+        {
+            "@id": "https://matjaz-kragelj.github.io/testing-IIIF-NUK/manifests/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "Example 2"
+        },
+        {
+            "@id": "https://matjaz-kragelj.github.io/testing-IIIF-NUK/manifests/manifest.json",
+            "@type": "sc:Collection",
+            "label": "Example 3"
+        },
+        {
+            "@id": "https://rose-efg.github.io/IIIF-Workshop-20220523/manifests/manifest_213-item-433-narliqrmxfapucuzljychw7x6ani6.json",
+            "@type": "sc:Collection",
+            "label": "Example 4"
+        },
+        {
+            "@id": "https://elems2020.github.io/DDB/manifests/manifest.json",
+            "@type": "sc:Collection",
+            "label": "Example 5"
+        },
+        {
+            "@id": "https://miguelsalesb.github.io/europeana/manifests/manifest.json",
+            "@type": "sc:Collection",
+            "label": "Example 6"
+        }
+    ]
+}
