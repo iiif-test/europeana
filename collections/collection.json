@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
-    "@id": "https://iiif-test.github.io/europeana/collection/collection.json",
+    "@id": "https://iiif-test.github.io/europeana/collections/collection.json",
     "@type": "sc:Collection",
     "label": "Top Level Collection for Example Organization",
     "description": "Example collection from Europeana Aggregator Training",
