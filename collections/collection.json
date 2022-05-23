@@ -17,24 +17,19 @@
             "label": "Example 2"
         },
         {
-            "@id": "https://matjaz-kragelj.github.io/testing-IIIF-NUK/manifests/manifest.json",
+            "@id": "https://rose-efg.github.io/IIIF-Workshop-20220523/manifests/manifest_213-item-433-narliqrmxfapucuzljychw7x6ani6.json",
             "@type": "sc:Collection",
             "label": "Example 3"
         },
         {
-            "@id": "https://rose-efg.github.io/IIIF-Workshop-20220523/manifests/manifest_213-item-433-narliqrmxfapucuzljychw7x6ani6.json",
+            "@id": "https://elems2020.github.io/DDB/manifests/manifest.json",
             "@type": "sc:Collection",
             "label": "Example 4"
         },
         {
-            "@id": "https://elems2020.github.io/DDB/manifests/manifest.json",
-            "@type": "sc:Collection",
-            "label": "Example 5"
-        },
-        {
             "@id": "https://miguelsalesb.github.io/europeana/manifests/manifest.json",
             "@type": "sc:Collection",
-            "label": "Example 6"
+            "label": "Example 5"
         }
     ]
 }
