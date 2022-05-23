@@ -1,0 +1,13 @@
+{
+  "id" : "https://iiif-test.github.io/europeana/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in iiif-test/europeana project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://iiif-test.github.io/europeana/manifests/manifest.json",
+    "label" : "This is a tractor"
+  } ]
+}
