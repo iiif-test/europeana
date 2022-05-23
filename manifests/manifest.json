@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://iiif-test.github.io/europeana/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "This is a tractor",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Description written by Glen",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://6e77dd2d-d565-4f48-b990-a44b109afc8f",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://96f4d2b7-47a6-47a6-9652-c96474741164",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 960,
+      "width" : 1280,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d07889c7-0265-4c49-a071-e1b96a0cd67b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/tractor_202205/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/tractor_202205",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 960,
+          "width" : 1280
+        },
+        "on" : "http://96f4d2b7-47a6-47a6-9652-c96474741164"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://c50b6a9a-1201-4331-90fc-06883826addd",
+      "@type" : "sc:Canvas",
+      "label" : "Second tractor image",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://5200deae-098d-4fc6-8986-0e24b2bde06e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-0353/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-0353",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://c50b6a9a-1201-4331-90fc-06883826addd"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
